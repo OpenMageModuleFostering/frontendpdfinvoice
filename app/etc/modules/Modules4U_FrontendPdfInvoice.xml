@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Modules4U_FrontendPdfInvoice>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Modules4U_FrontendPdfInvoice>
+    </modules>
+</config>

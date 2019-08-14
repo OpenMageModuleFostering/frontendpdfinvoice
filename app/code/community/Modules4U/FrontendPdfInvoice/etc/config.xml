@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Modules4U_FrontendPdfInvoice>
+            <version>1.0.0</version>
+        </Modules4U_FrontendPdfInvoice>
+    </modules>
+ 
+    <frontend>
+        <routers>
+            <pdf>
+                <use>standard</use>
+                <args>
+                    <module>Modules4U_FrontendPdfInvoice</module>
+                    <frontName>pdf</frontName>
+                </args>
+            </pdf>
+        </routers>
+    		<translate>
+    			<modules>
+            		<Modules4U_EuVatIdChecker>
+              			<files>
+                    		<default>Modules4U_FrontendPdfInvoice.csv</default>
+                    	</files>
+                	</Modules4U_EuVatIdChecker>
+           		</modules>
+       		</translate>          
+        
+    </frontend>
+</config>

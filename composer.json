@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/FrontendPdfInvoice",
+    "type": "magento-module",
+    "license": "Modules4U-Software-License",
+    "homepage": "",
+    "description": "This extension allows your registered customers to download invoices as PDF",
+    "authors": [
+    {
+        "name": "Modules4U",
+        "email": "extensions@modules4u.biz"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
